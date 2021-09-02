@@ -8,7 +8,8 @@ Este projeto foi desenvolvido integralmente pela equipe, sem ajuda não autoriza
 - `make run`
 
 ## Visualização da pagina web
-http://localhost:800/ttt.txt
+http://localhost:800/ttt.txt - Para versão 1. <br/>
+http://localhost:800/example.html - Para versão 2.
 
 ## Referências
 - [Basedo no Código](https://github.com/ericomeehan/libeom/blob/main/test/main.c)
