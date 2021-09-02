@@ -15,7 +15,7 @@
 #include<fcntl.h>
 #include<pthread.h>
 
-#define CONNMAX 10
+#define CONNMAX 20
 #define BYTES 1024
 int slot=0;
 
@@ -192,7 +192,7 @@ void respond(int n)
 				if ( (fd=open(path, O_RDONLY))!=-1 )    //FILE FOUND
 				{
 					send(clients[n], "HTTP/1.0 200 OK\n\n", 17, 0);
-					printf("HTTP/1.0 200 OK\n\n");
+					//printf("HTTP/1.0 200 OK\n\n");
 					while ( (bytes_read=read(fd, data_to_send, BYTES))>0 )
 						write (clients[n], data_to_send, bytes_read);
 				}
