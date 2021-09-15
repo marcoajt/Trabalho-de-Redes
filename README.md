@@ -9,7 +9,7 @@ Este projeto foi desenvolvido integralmente pela equipe, sem ajuda não autoriza
 
 ## Visualização da pagina web
 http://localhost:800/ttt.txt - Para versão 1. <br/>
-http://localhost:800/example.html - Para versão 2 e 3.
+http://localhost:800/example.html - Para versão 2 e 3. <br/>
 http://localhost:800 - Para a versão 2 e 3.
 
 ## Referências
